@@ -2,6 +2,16 @@
 
 Welcome to my Next.js application! This project was bootstrapped with [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Next.js Login Implementation with NextAuth
+
+This project demonstrates a simple login implementation using Next.js and NextAuth. It leverages NextAuth for authentication, providing a secure and efficient way to handle user authentication in your Next.js applications.
+
+## Features
+
+- **Google Login:** Users can log in using their Google accounts, leveraging NextAuth's built-in Google authentication.
+
+- **Session Management:** Utilizes NextAuth's session management to keep users authenticated across different pages.
+
 ## Getting Started
 
 1. **Clone the repository:**
@@ -28,6 +38,9 @@ Welcome to my Next.js application! This project was bootstrapped with [Create Ne
    yarn dev
 
 Visit http://localhost:3000 in your browser to view the application.
+
+**Implementation Details**
+The login implementation is built with NextAuth for authentication. The LoginButton component in the components/ directory handles the login button and redirects users to the dashboard upon successful authentication.
 
 Learn More
 To learn more about Next.js, take a look at the following resources:
