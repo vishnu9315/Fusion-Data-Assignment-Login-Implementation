@@ -8,16 +8,17 @@ Welcome to my Next.js application! This project was bootstrapped with [Create Ne
    ```bash
    git clone https://github.com/your-username/your-repository.git
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
+
    cd your-repository
    
-3. Install Dependencies:
+4. **Install Dependencies:**
    npm install
-   OR
+   # OR
    yarn
-4. Run the Development Server:
+5. **Run the Development Server:**
    npm run dev
-   OR
+   # OR
    yarn dev
 
 Visit http://localhost:3000 in your browser to view the application.
