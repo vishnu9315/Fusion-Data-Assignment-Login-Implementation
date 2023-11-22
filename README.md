@@ -13,12 +13,18 @@ Welcome to my Next.js application! This project was bootstrapped with [Create Ne
    cd your-repository
    
 4. **Install Dependencies:**
+   
    npm install
+   
    # OR
+   
    yarn
 5. **Run the Development Server:**
+   
    npm run dev
+   
    # OR
+   
    yarn dev
 
 Visit http://localhost:3000 in your browser to view the application.
