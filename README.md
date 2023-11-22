@@ -12,6 +12,9 @@ This project demonstrates a simple login implementation using Next.js and NextAu
 
 - **Session Management:** Utilizes NextAuth's session management to keep users authenticated across different pages.
 
+## Implementation Details
+The login implementation is built with NextAuth for authentication. The LoginButton component in the components/ directory handles the login button and redirects users to the dashboard upon successful authentication.
+
 ## Getting Started
 
 1. **Clone the repository:**
@@ -38,9 +41,6 @@ This project demonstrates a simple login implementation using Next.js and NextAu
    yarn dev
 
 Visit http://localhost:3000 in your browser to view the application.
-
-**Implementation Details**
-The login implementation is built with NextAuth for authentication. The LoginButton component in the components/ directory handles the login button and redirects users to the dashboard upon successful authentication.
 
 Learn More
 To learn more about Next.js, take a look at the following resources:
